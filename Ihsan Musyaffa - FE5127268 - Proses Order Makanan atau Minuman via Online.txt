@@ -1,0 +1,19 @@
+1. START
+2. READ AND WRITE "selected_food" with string
+3. READ AND WRITE "jumlah_makanan" with number
+4. WHILE "add_food is TRUE"
+    DO back to step 2
+5. READ AND WRITE "addresses" with string
+6. READ AND WRITE "note" with string
+7. READ AND WRITE "selected_payment" 
+8. IF have "voucher" is TRUE
+    Store "voucher" with string
+    Calculate "selected_food*jumlah_makanan+ongkir+voucher"
+    ELSE
+    Calculate "selected_food*jumlah_makanan+ongkir"
+9. Display "total_payment"
+10. IF "konfirmasi" is TRUE
+    READ AND WRITE "payment"
+    ELSE
+    Back to step 2
+11. END
